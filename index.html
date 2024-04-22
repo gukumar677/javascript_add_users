@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h3 class="title">Add enroll users</h3>
+        <p >
+          Welcome front end cohort members!
+        </p>        
+        <input type="text" placeholder="Enter name" id="name" required>
+        <input type="email" placeholder="Enter email" id ="email" required>
+        <button class="btn" id="add-users" onclick="Addusers()">Add users</button>  
+        <button class="btn" id="remove-users" onclick="Removeusers()">Remove users</button> 
+        </div>
+      </div>
+      <div class="users-box" id="users-box">        
+      </div>    
+    <script src="app.js"></script>
+  </body>
+</html>
